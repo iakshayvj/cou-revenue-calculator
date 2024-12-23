@@ -1,4 +1,4 @@
-# BBPS Calculator | Setu
+# BBPS COU Revenue Calculator
 
 A modern, responsive calculator for BBPS (Bharat Bill Payment System) revenue estimation. This tool helps businesses calculate potential earnings from bill payment solutions.
 
