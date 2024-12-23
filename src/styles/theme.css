@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg-primary: #FFFFFF;
+    --color-bg-secondary: #EDF2F7;
+    --color-bg-tertiary: #E2E8F0;
+    
+    --color-text-primary: #1A202C;
+    --color-text-secondary: #4A5568;
+    --color-text-tertiary: #A0AEC0;
+    
+    --color-interactive-primary: #2B6CB0;
+    --color-interactive-hover: #2C5282;
+    --color-interactive-active: #2A4365;
+    --color-interactive-focus: rgba(43, 108, 176, 0.2);
+    
+    --color-accent-primary: #3182CE;
+    --color-accent-secondary: #4299E1;
+    
+    --color-success-light: #C6F6D5;
+    --color-success-base: #38A169;
+    --color-success-dark: #276749;
+    
+    --color-error-light: #FED7D7;
+    --color-error-base: #E53E3E;
+    --color-error-dark: #C53030;
+    
+    --color-warning-light: #FEEBC8;
+    --color-warning-base: #DD6B20;
+    --color-warning-dark: #C05621;
+    
+    --color-info-light: #BEE3F8;
+    --color-info-base: #3182CE;
+    --color-info-dark: #2C5282;
+    
+    --color-component-card: #FFFFFF;
+    --color-component-border: #E2E8F0;
+    --color-component-input: #EDF2F7;
+    --color-component-input-border: #CBD5E0;
+  }
+
+  /* Global Transitions */
+  * {
+    @apply transition-colors duration-300;
+  }
+
+  body {
+    @apply bg-bg-primary text-text-primary;
+  }
+}
